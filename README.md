@@ -9,36 +9,45 @@ For more information and support, please contact Maxwell Huang <410116635@qq.com
 
 You may have to install the packages mentioned above before running this script by running
 
-> pip install tqdm
-> pip install openpyxl
-
+```shell
+pip install tqdm
+pip install openpyxl
+```
 ## Usage
 ### Testing
 With no files missiong, you can test the script by the command
 
-> python excelprocess.py
+```shell
+python excelprocess.py
+```
 
 You should get 3 csv files in the same directory, named as 'test_Sheet1.csv', 'test_Sheet2.csv' and 'test_Sheet3.csv', after the message 'File test.xlsx Processed Successfully' is broadcasted in the console.
 
 ### File mode
 You can tell the script to deal with the file you delare by command
 
-> python excelprocess.py --file yourfile.xlsx
+```shell
+python excelprocess.py --file yourfile.xlsx
+```
 
 This command means to process the yourfile.xlsx.
 
 ### Folder mode
 You can tell the script the folder in which all the xlsx files (including all files in the subdirectories) will be processed with command
 
-> python excelprocess.py --folder ./
+```shell
+python excelprocess.py --folder ./
+```
 
 This command means to process all the xlsx files under the directory ./, a.k.a the directory where the script is.
 
 ### Help
 You can also look up for help with command
 
-> python excelprocess.py -h 
-
+```shell
+python excelprocess.py -h 
+```
 or
-
-> python excelprocess.py --help
+```shell
+python excelprocess.py --help
+```
