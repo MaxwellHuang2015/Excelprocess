@@ -24,7 +24,7 @@ def folder_process(folder_address):
     pbar = tqdm(total=len(file_list),dynamic_ncols=True,unit='file')
 
     for temp_file in file_list:
-        pbar.set_description(desc='Processing: 'temp_file)
+        pbar.set_description(desc='Processing: '+temp_file)
         file_process(temp_file)
         sleep(0.01)
         pbar.update(1)
