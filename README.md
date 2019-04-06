@@ -15,7 +15,7 @@ pip install openpyxl
 ```
 ## Usage
 ### Testing
-With no files missiong, you can test the script by the command
+With no files missing, you can test the script by the command
 
 ```shell
 python excelprocess.py
