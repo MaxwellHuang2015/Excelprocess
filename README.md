@@ -41,6 +41,18 @@ python excelprocess.py --folder ./
 
 This command means to process all the xlsx files under the directory ./, a.k.a the directory where the script is.
 
+### Function Selection
+You can determine which function to be used, which will give different process on the xlsx files.
+So far, function list is:
+* 1 transform and split(default)
+* 2 average per six columns
+
+```shell
+python excelprocess.py --folder ./ --function 2
+```
+
+This command means to process all the xlsx files within function 2 rather than the function 1 as default under the directory ./, a.k.a the directory where the script is.
+
 ### Help
 You can also look up for help with command
 
