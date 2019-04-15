@@ -1,6 +1,6 @@
 # Excelprocess
 ## About this script
-To deal with some issues on excel files, specified as xlsx, xlsm files etc.. The script is coded in Python 2.7 and tested in Python 2.7.15rc1, but it should also be effective under Python 3. 
+To deal with some issues on excel files, specified as xlsx, xlsm files etc.. The script is coded in Python 2.7 and tested in Python 2.7.15rc1. In Python 3, as the 'xrange' function is replaced by 'range', and variable type subdivided into bytes-like object and string and something else, some error will raise. As for Python3 version is not availble now, you have to fix these bugs if you have to run it in Python3 
 For more information and support, please contact Maxwell Huang <410116635@qq.com>
 
 ## Prerequisites
